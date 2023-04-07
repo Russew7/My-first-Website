@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Contact Me</title>
+</head>
+<body>
+   <h1>My contact detalis</h1>
+   <p>My Adress</p>
+   <p>074242xxxx</p>
+   <p>catalinrusu98@yahoo.com</p>
+   <hr>
+   <fieldset>
+    <legend>Select your gender:</legend>
+ <div>
+      <input type="radio" id="Male" name="drone" value="huey"
+             checked>
+      <label>Male</label>
+    </div>
+<div>
+      <input type="radio" id="Female" name="drone" value="dewey">
+      <label>Female</label>
+    </div>
+ <div>
+      <input type="radio" id="Non-Binary" name="drone" value="louie">
+      <label>Non-Binary</label>
+    </div>
+</fieldset>
+<form  action="mailto:info@catalinrusu98@yahoo.com" method="post" enctype="text/plain"><br>
+<label>Your Name:</label> 
+<input type="text" name="yourName" value=""><br>
+<label>Your Email</label>
+<input type="email" name="yourEmail" value=""><br>
+<label>Your Message:</label><br>
+<textarea name="yourMessage"  cols="30" rows="10"></textarea><br>
+<input type="submit" name=""> <hr>
+<label for="phone">Phone number:</label>
+</form>
+<input type="tel" id="phone" name="phone"
+       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+       required>
+
+</body>
+</html>
